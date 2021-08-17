@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import { compose } from 'redux';
 import Builder from './builder';
 import {getCategoryList} from './action'
+import WithCounter from '../../../containers/HighOrderComponent/withCounter'
 
 
 const mapDispatchToProps = (dispatch) => ({
